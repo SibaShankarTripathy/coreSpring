@@ -7,9 +7,9 @@
 <!-- Create bean of Date class-->
 <bean id="dt" class="java.util.Date"/>
 
-<!-- Process to set value of date class object to variale by using setter method() -->
+<!-- Process to set value of date class object to variable by using setter method() -->
 <bean id="showTime" class="com.sst.SetterInjection">
-	<property name="date" ref="dt"></property>
+	<property name="date123" ref="dt"></property>
 </bean>
     
 
