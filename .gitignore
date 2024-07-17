@@ -1,0 +1,49 @@
+# Eclipse specific files
+/.settings/
+/.project/
+/.classpath/
+/.metadata/
+
+# Maven/Gradle specific files
+/target/
+/build/
+
+# Ignore compiled class files
+*.class
+
+# Spring Boot specific files
+/*.jar
+/*.war
+/*.ear
+
+# Logs
+/logs
+*.log
+
+# Temporary files
+/tmp
+*.tmp
+
+# SonarLint specific files
+/.sonarlint
+
+# Operating system specific files
+.DS_Store
+Thumbs.db
+
+# IDE specific files
+.idea/
+*.iml
+
+# Miscellaneous
+*.swp
+*~
+*.swo
+
+# Ignore the application.properties file if it contains sensitive information
+# Uncomment the line below if you store sensitive information in application.properties
+# /src/main/resources/application.properties
+
+# Ignore test and coverage results
+/test-output/
+.coverage/
